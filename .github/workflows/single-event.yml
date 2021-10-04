@@ -4,6 +4,6 @@ jobs:
   run-single:
     runs-on: ubuntu-latest
     steps:
-      name: run single command
-      run: echo this is single event
+      - name: run single command
+        run: echo this is single event
     

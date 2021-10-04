@@ -1,5 +1,5 @@
 name: list-of-events
-on: [push, label]
+on: [push, pull_request]
 jobs:
   run-single:
     runs-on: ubuntu-latest

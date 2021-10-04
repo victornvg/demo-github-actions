@@ -1,0 +1,9 @@
+name: single event
+on: push
+jobs:
+  run-single:
+    runs-on: ubuntu-latest
+    steps:
+      name: run single command
+      run: echo this is single event
+    

@@ -1,0 +1,8 @@
+name: list-of-events
+on: [push, label]
+jobs:
+  run-single:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run single command
+        run: echo this is list of events

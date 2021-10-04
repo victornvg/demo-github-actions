@@ -1,0 +1,10 @@
+name: schedule events
+on:
+  schedule:
+    # https://crontab.guru/#05_11_*_10_1
+    - cron:  '05 11 * 10 1'
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo this is schedule event

@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run single command
-        run: echo this is list of events
+        run: echo this is list of events 1

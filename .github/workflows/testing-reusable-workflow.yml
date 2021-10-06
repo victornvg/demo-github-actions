@@ -1,0 +1,10 @@
+name: testing reusable worklow
+on: push
+jobs:
+  call-reusable-workflow:
+    uses: victornvg/demo-github-actions/.github/workflows/reusable-workflow.yml@main
+    with:
+      username: victor
+      password: 123456
+    secrets:
+      token: ${{ secrets.TOKEN }}

@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'branch name'
+        description: 'your first name'
         required: true
-        default: 'main'
+        default: 'Nguyen'
       name:
         description: 'your name'
         required: false

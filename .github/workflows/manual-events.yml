@@ -15,4 +15,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "Branch ${{ github.event.inputs.branch }} - your name: ${{ github.event.inputs.name }}"
+          echo "Branch ${{ github.event.inputs.branch }} - your name: ${{ github.event.inputs.name }} - GITHUBREF ${{ env.GITHUB_REF }}"
